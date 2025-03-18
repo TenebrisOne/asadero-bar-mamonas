@@ -119,3 +119,92 @@ footer {
 .carousel-indicators button {
     background-color: #25D366;
 }
+
+/* Sección de Contacto */
+#contacto h2.titulo-contacto {
+    color: #333;
+    /* Color oscuro para el título */
+    text-shadow:
+        -2px -2px 0 #F5DEB3,
+        /* Borde claro grueso */
+        2px -2px 0 #F5DEB3,
+        -2px 2px 0 #F5DEB3,
+        2px 2px 0 #F5DEB3;
+    font-size: 2.5rem;
+    /* Tamaño grande para el título */
+}
+
+#contacto .fondo-oscuro-1,
+#contacto .fondo-oscuro-2 {
+    background-color: rgba(50, 50, 50, 0.8);
+    /* Fondo oscuro claro */
+    max-width: 90%;
+    /* Ancho máximo del fondo */
+}
+
+#contacto .fondo-oscuro-2 {
+    background-color: rgba(60, 60, 60, 0.8);
+    /* Fondo oscuro claro alternativo */
+}
+
+#contacto h3.subtitulo-contacto {
+    color: #F5DEB3;
+    /* Color claro para los subtítulos */
+    text-shadow:
+        -2px -2px 0 #333,
+        /* Borde oscuro grueso */
+        2px -2px 0 #333,
+        -2px 2px 0 #333,
+        2px 2px 0 #333;
+    font-size: 1.5rem;
+    /* Tamaño mediano para los subtítulos */
+}
+
+#contacto p.texto-contacto {
+    color: #F5DEB3;
+    /* Color claro para el texto */
+    text-shadow:
+        -2px -2px 0 #333,
+        /* Borde oscuro grueso */
+        2px -2px 0 #333,
+        -2px 2px 0 #333,
+        2px 2px 0 #333;
+    font-size: 1.1rem;
+    /* Tamaño de fuente ligeramente más grande */
+    margin-bottom: 0;
+    /* Elimina el margen inferior */
+}
+
+#contacto .btn-primary {
+    background-color: #2585d3;
+    border: none;
+}
+
+#contacto .btn-primary:hover {
+    background-color: #12558c;
+}
+
+/* Footer */
+footer {
+    background-color: #1A1A1A;
+    color: #F5DEB3;
+    padding: 20px 0;
+}
+
+.developer-info {
+    font-size: 0.9rem;
+    /* Fuente más pequeña */
+    color: #888;
+    /* Color gris para los datos del desarrollador */
+    margin-top: 10px;
+}
+
+.developer-info a {
+    color: #25D366;
+    /* Color verde para los enlaces */
+    text-decoration: none;
+}
+
+.developer-info a:hover {
+    text-decoration: underline;
+}

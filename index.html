@@ -28,7 +28,7 @@
     <meta property="og:url" content="https://www.asaderoelparaiso.com">
 
     <!-- Favicon (ícono en la pestaña del navegador) -->
-    <link rel="icon" type="image/icon" href="/img/favicon.">
+    <link rel="icon" type="image/icon" href="/img/favicon.ico">
 
     <!-- Link Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -99,88 +99,94 @@
     </section>
 
     <!-- Sección de Testimonios -->
-<!-- Sección de Testimonios -->
-<section id="testimonios" class="testimonios-section py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">Lo que dicen nuestros clientes</h2>
-      <div id="testimoniosCarousel" class="carousel slide" data-bs-ride="carousel">
-        <!-- Indicadores -->
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="2"></button>
-          <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="3"></button>
+    <section id="testimonios" class="testimonios-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Lo que dicen nuestros clientes</h2>
+            <div id="testimoniosCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="0"
+                        class="active"></button>
+                    <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#testimoniosCarousel" data-bs-slide-to="3"></button>
+                </div>
+
+                <!-- Carrusel -->
+                <div class="carousel-inner">
+                    <!-- Testimonio 1 -->
+                    <div class="carousel-item active">
+                        <div class="testimonio-card">
+                            <img src="img/testimonios/cliente1.jpg" class="testimonio-img" alt="Cliente 1">
+                            <div class="testimonio-text">
+                                <p>"¡La mejor carne que he probado! Siempre que puedo, vengo aquí."</p>
+                                <p><strong>- Juan Pérez</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonio 2 -->
+                    <div class="carousel-item">
+                        <div class="testimonio-card">
+                            <img src="img/testimonios/cliente2.jpg" class="testimonio-img" alt="Cliente 2">
+                            <div class="testimonio-text">
+                                <p>"El ambiente es increíble y la carne siempre está en su punto."</p>
+                                <p><strong>- María Gómez</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonio 3 -->
+                    <div class="carousel-item">
+                        <div class="testimonio-card">
+                            <img src="img/testimonios/cliente3.jpg" class="testimonio-img" alt="Cliente 3">
+                            <div class="testimonio-text">
+                                <p>"Recomiendo el asado de tira, ¡es espectacular!"</p>
+                                <p><strong>- Carlos López</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonio 4 -->
+                    <div class="carousel-item">
+                        <div class="testimonio-card">
+                            <img src="img/testimonios/cliente4.jpg" class="testimonio-img" alt="Cliente 4">
+                            <div class="testimonio-text">
+                                <p>"El servicio es excelente y los precios son justos."</p>
+                                <p><strong>- Ana Rodríguez</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimoniosCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimoniosCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
         </div>
-  
-        <!-- Carrusel -->
-        <div class="carousel-inner">
-          <!-- Testimonio 1 -->
-          <div class="carousel-item active">
-            <div class="testimonio-card">
-              <img src="img/testimonios/cliente1.jpg" class="testimonio-img" alt="Cliente 1">
-              <div class="testimonio-text">
-                <p>"¡La mejor carne que he probado! Siempre que puedo, vengo aquí."</p>
-                <p><strong>- Juan Pérez</strong></p>
-              </div>
-            </div>
-          </div>
-  
-          <!-- Testimonio 2 -->
-          <div class="carousel-item">
-            <div class="testimonio-card">
-              <img src="img/testimonios/cliente2.jpg" class="testimonio-img" alt="Cliente 2">
-              <div class="testimonio-text">
-                <p>"El ambiente es increíble y la carne siempre está en su punto."</p>
-                <p><strong>- María Gómez</strong></p>
-              </div>
-            </div>
-          </div>
-  
-          <!-- Testimonio 3 -->
-          <div class="carousel-item">
-            <div class="testimonio-card">
-              <img src="img/testimonios/cliente3.jpg" class="testimonio-img" alt="Cliente 3">
-              <div class="testimonio-text">
-                <p>"Recomiendo el asado de tira, ¡es espectacular!"</p>
-                <p><strong>- Carlos López</strong></p>
-              </div>
-            </div>
-          </div>
-  
-          <!-- Testimonio 4 -->
-          <div class="carousel-item">
-            <div class="testimonio-card">
-              <img src="img/testimonios/cliente4.jpg" class="testimonio-img" alt="Cliente 4">
-              <div class="testimonio-text">
-                <p>"El servicio es excelente y los precios son justos."</p>
-                <p><strong>- Ana Rodríguez</strong></p>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- Controles -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
-      </div>
-    </div>
-  </section>
+    </section>
 
     <!-- Sección de Información de Contacto -->
     <section id="contacto" class="container my-5">
-        <h2 class="text-center mb-4">Contacto</h2>
+        <h2 class="text-center mb-4 titulo-contacto">Contacto</h2>
         <div class="row">
-            <div class="col-md-6">
-                <h3>Dirección</h3>
-                <p>cll 10 # 2-04, Meta, Colombia</p>
+            <div class="col-md-6 d-flex justify-content-start">
+                <div class="fondo-oscuro-1 p-4 rounded">
+                    <h3 class="subtitulo-contacto">Dirección</h3>
+                    <p class="texto-contacto">cll 10 # 2-04, Meta, Colombia</p>
+                </div>
             </div>
-            <div class="col-md-6">
-                <h3>Horario de Atención</h3>
-                <p>Lunes a Domingo: 06:00 - 21:00</p>
+            <div class="col-md-6 d-flex justify-content-end">
+                <div class="fondo-oscuro-2 p-4 rounded">
+                    <h3 class="subtitulo-contacto">Horario de Atención</h3>
+                    <p class="texto-contacto">Lunes a Domingo: 06:00 - 21:00</p>
+                </div>
             </div>
         </div>
         <div class="text-center mt-4">
@@ -196,6 +202,13 @@
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-4">
         <p>&copy; <span id="current-year"></span> Asadero Bar Mamona's. Todos los derechos reservados.</p>
+        <p class="developer-info">
+            Desarrollado por <strong>Habacuc Developer</strong> |
+            <a href="mailto:habacucdeveloper@gmail.com" class="text-light">habacucdeveloper@gmail.com</a> |
+            Tel: <a href="tel:+573108727246" class="text-light">+57 3108727246</a> |
+            <a href="https://wa.me/573108727246" class="text-light">WhatsApp</a> |
+            <a href="https://github.com/HabacucDev" class="text-light">GitHub</a>
+        </p>
     </footer>
 
     <!-- Scripts -->
