@@ -1,0 +1,121 @@
+/* Estilos Generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: url('../img/fondo.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    /* Fondo oscuro semi-transparente */
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+}
+
+/* Botón de WhatsApp */
+.btn-success {
+    background-color: #25D366;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #128C7E;
+}
+
+/* Cards */
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #1A1A1A;
+    color: #F5DEB3;
+    padding: 20px 0;
+}
+
+/* Sección de Testimonios */
+.testimonios-section {
+    background: rgba(0, 0, 0, 0.7);
+    /* Fondo semi-opaco */
+    padding: 60px 0;
+}
+
+.testimonio-card {
+    background: rgba(255, 255, 255, 0.9);
+    /* Fondo semi-opaco para el texto */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.testimonio-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #25D366;
+}
+
+.testimonio-text p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonio-text strong {
+    color: #25D366;
+}
+
+/* Animaciones del carrusel */
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #25D366;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-indicators button {
+    background-color: #25D366;
+}
