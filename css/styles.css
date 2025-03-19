@@ -12,6 +12,14 @@ h3 {
     font-family: 'Playfair Display', serif;
 }
 
+.navbar.scrolled {
+    background-color: #1A1A1A !important;
+}
+
+.navbar.scrolled {
+    background-color: #1A1A1A !important;
+}
+
 /* Hero Section */
 .hero-section {
     height: 100vh;
@@ -105,6 +113,8 @@ footer {
 }
 
 /* Animaciones del carrusel */
+
+/* Carrusel */
 .carousel-item {
     transition: transform 0.5s ease-in-out;
 }
@@ -148,7 +158,7 @@ footer {
 }
 
 #contacto h3.subtitulo-contacto {
-    color: #F5DEB3;
+    color: #fffd75;
     /* Color claro para los subtítulos */
     text-shadow:
         -2px -2px 0 #333,
@@ -161,7 +171,7 @@ footer {
 }
 
 #contacto p.texto-contacto {
-    color: #F5DEB3;
+    color: #fffd75;
     /* Color claro para el texto */
     text-shadow:
         -2px -2px 0 #333,
@@ -175,6 +185,7 @@ footer {
     /* Elimina el margen inferior */
 }
 
+/* Botones */
 #contacto .btn-primary {
     background-color: #2585d3;
     border: none;
