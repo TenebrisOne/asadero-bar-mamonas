@@ -313,15 +313,3 @@ footer {
     }
 }
 
-/* Dispositivos grandes (escritorio) */
-@media (min-width: 1200px) {
-    /* Asegurar que los productos y testimonios estén alineados */
-    .productos-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .testimonios-container {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
