@@ -169,15 +169,7 @@ footer {
 
 #contacto h3.subtitulo-contacto {
     color: #fffd75;
-    /* Color claro para los subtítulos */
-    text-shadow:
-        -2px -2px 0 #333,
-        /* Borde oscuro grueso */
-        2px -2px 0 #333,
-        -2px 2px 0 #333,
-        2px 2px 0 #333;
-    font-size: 1.5rem;
-    /* Tamaño mediano para los subtítulos */
+
 }
 
 #contacto p.texto-contacto {
