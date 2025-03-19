@@ -214,3 +214,13 @@ footer {
 .developer-info a:hover {
     text-decoration: underline;
 }
+
+/* Iconos de redes sociales */
+.social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #25D366;
+  }
