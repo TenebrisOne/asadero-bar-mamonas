@@ -12,12 +12,42 @@ h3 {
     font-family: 'Playfair Display', serif;
 }
 
+/* Efecto para el texto */
+h1, h2, p {
+    transition: color 0.3s ease;
+}
+
+h1:hover, h2:hover, p:hover {
+    color: #28a745;
+}
+
 .navbar.scrolled {
     background-color: #1A1A1A !important;
 }
 
 .navbar.scrolled {
     background-color: #1A1A1A !important;
+}
+
+/* Custom animations */
+.animate__fadeInCustom {
+    animation: fadeInUp 1s ease-out;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-section {
+    background: url('img/hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* Hero Section */
@@ -72,7 +102,9 @@ h3 {
     background: rgba(255, 255, 255, 0.9);
     color: #333;
     border: none;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; box-shadow 0.3s ease;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card:hover {
@@ -219,8 +251,10 @@ footer {
 .social-icons a {
     font-size: 1.5rem;
     transition: color 0.3s ease;
-  }
-  
-  .social-icons a:hover {
+}
+
+.social-icons a:hover {
     color: #25D366;
-  }
+}
+
+
