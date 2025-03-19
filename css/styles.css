@@ -57,6 +57,16 @@ h3 {
     background-color: #128C7E;
 }
 
+/* Estilos para las imágenes de los platos */
+.img-plato {
+    height: 200px;
+    /* Altura fija para todas las imágenes */
+    object-fit: cover;
+    /* Ajusta la imagen sin distorsionarla */
+    width: 100%;
+    /* Ocupa el ancho completo de la tarjeta */
+}
+
 /* Cards */
 .card {
     background: rgba(255, 255, 255, 0.9);
@@ -172,13 +182,6 @@ footer {
 
 #contacto p.texto-contacto {
     color: #fffd75;
-    /* Color claro para el texto */
-    text-shadow:
-        -2px -2px 0 #333,
-        /* Borde oscuro grueso */
-        2px -2px 0 #333,
-        -2px 2px 0 #333,
-        2px 2px 0 #333;
     font-size: 1.1rem;
     /* Tamaño de fuente ligeramente más grande */
     margin-bottom: 0;
