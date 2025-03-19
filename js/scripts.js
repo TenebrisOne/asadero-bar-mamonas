@@ -20,6 +20,8 @@ window.addEventListener("scroll", function () {
         navbar.classList.remove("scrolled");
     }
 });
+
+
 // Animaciones al hacer scroll
 document.addEventListener("scroll", function () {
     const elementos = document.querySelectorAll(".animate__animated");
