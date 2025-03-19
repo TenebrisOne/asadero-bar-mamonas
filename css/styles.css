@@ -258,3 +258,70 @@ footer {
 }
 
 
+/* Dispositivos pequeños (móviles) */
+@media (max-width: 767px) {
+    header .logo {
+        font-size: 1.5rem;
+    }
+
+    /* Cambiar el layout de productos a una columna */
+    .productos-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Cambiar el diseño de testimonios a una sola columna */
+    .testimonios-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Ajustar el botón de WhatsApp */
+    .whatsapp-button {
+        padding: 12px;
+        font-size: 20px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
+/* Dispositivos medianos (tabletas) */
+@media (max-width: 1024px) {
+    /* Cambiar el layout de productos a dos columnas */
+    .productos-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonios-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .whatsapp-button {
+        padding: 14px;
+        font-size: 22px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+/* Dispositivos grandes (escritorio) */
+@media (min-width: 1200px) {
+    /* Asegurar que los productos y testimonios estén alineados */
+    .productos-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .testimonios-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
