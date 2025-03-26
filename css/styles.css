@@ -111,12 +111,18 @@ h1:hover, h2:hover, p:hover {
     transform: scale(1.05);
 }
 
-/* Footer */
-footer {
-    background-color: #1A1A1A;
-    color: #F5DEB3;
-    padding: 20px 0;
-}
+
+
+    /* Cambiar el layout de productos a una columna */
+    .productos-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Cambiar el diseño de testimonios a una sola columna */
+    .testimonios-container {
+        flex-direction: column;
+        align-items: center;
+    }
 
 /* Sección de Testimonios */
 .testimonios-section {
@@ -264,16 +270,6 @@ footer {
         font-size: 1.5rem;
     }
 
-    /* Cambiar el layout de productos a una columna */
-    .productos-container {
-        grid-template-columns: 1fr;
-    }
-
-    /* Cambiar el diseño de testimonios a una sola columna */
-    .testimonios-container {
-        flex-direction: column;
-        align-items: center;
-    }
 
     /* Ajustar el botón de WhatsApp */
     .whatsapp-button {
