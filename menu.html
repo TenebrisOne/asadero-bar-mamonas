@@ -17,7 +17,7 @@
 
     <!-- Hojas de estilo -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 
     <!-- Fuentes de Google -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -43,23 +43,52 @@
             scroll-behavior: smooth;
         }
 
-                /* Estilos personalizados para el h2 "Nuestro Menú" */
-                .custom-h2 {
-            font-size: 3.5rem; /* Aumenta el tamaño de la fuente */
-            font-weight: bold; /* Establece el texto en negrita */
-            color: #333; /* Un color más oscuro para un mejor contraste */
-            margin-top: 4rem; /* Añade espacio en la parte superior */
-            margin-bottom: 3rem; /* Añade espacio en la parte inferior */
-            padding: 10px; /* Añadir espacio alrededor del texto */ 
-            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera para el texto */   
-            margin-bottom: 20px;    
+        /* Estilos personalizados para el h2 "Nuestro Menú" */
+        .custom-h2 {
+            font-size: 3.5rem;
+            /* Aumenta el tamaño de la fuente */
+            font-weight: bold;
+            /* Establece el texto en negrita */
+            color: #333;
+            /* Un color más oscuro para un mejor contraste */
+            margin-top: 4rem;
+            /* Añade espacio en la parte superior */
+            margin-bottom: 3rem;
+            /* Añade espacio en la parte inferior */
+            padding: 10px;
+            /* Añadir espacio alrededor del texto */
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+            /* Sombra ligera para el texto */
+            margin-bottom: 20px;
+            text-shadow:
+                -2px -2px 0 #d2e9e1,
+                /* Borde claro grueso */
+                2px -2px 0 #d2e9e1,
+                -2px 2px 0 #d2e9e1,
+                2px 2px 0 #d2e9e1;
         }
+
+
 
         /* Opcional: Cambiar el estilo de la fuente (puedes usar una fuente personalizada si lo prefieres) */
         /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); */
         /* .custom-h2 {
             font-family: 'Roboto', sans-serif;
         } */
+
+        /* Sección de Contacto */
+        #titulo_contacto {
+            color: #333;
+            /* Color oscuro para el título */
+            text-shadow:
+                -2px -2px 0 #F5DEB3,
+                /* Borde claro grueso */
+                2px -2px 0 #F5DEB3,
+                -2px 2px 0 #F5DEB3,
+                2px 2px 0 #F5DEB3;
+            font-size: 2.5rem;
+            /* Tamaño grande para el título */
+        }
     </style>
 </head>
 
@@ -73,8 +102,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/#especialidades">Especialidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/#testimonios">Testimonios</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
                 </ul>
             </div>
@@ -98,13 +128,8 @@
         </div>
     </section>
 
-    <section id="testimonios" class="container my-5 animate-on-scroll">
-        <h2 class="text-center mb-5">Testimonios</h2>
-        <!-- Contenido de los testimonios aquí -->
-    </section>
-
     <section id="contacto" class="container my-5 animate-on-scroll">
-        <h2 class="text-center mb-5">Contacto</h2>
+        <h2 id="titulo_contacto" class="text-center mb-4">Contacto</h2>
         <div class="row">
             <div class="col-md-6 d-flex justify-content-start">
                 <div class="fondo-oscuro-1 p-4 rounded">
