@@ -93,7 +93,12 @@ h1:hover, h2:hover, p:hover {
     }
 }
 
-
+/* Media query para pantallas aún más pequeñas (algunos celulares muy estrechos) */
+@media (max-width: 576px) {
+    .hero-section h1.hero-title {
+        font-size: 2.2rem; /* Tamaño aún menor para pantallas muy pequeñas */
+    }
+}
 
 .hero-section .btn {
     font-size: 1.2rem;
