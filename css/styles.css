@@ -130,7 +130,7 @@ h1:hover, h2:hover, p:hover {
     background: rgba(255, 255, 255, 0.9);
     color: #333;
     border: none;
-    transition: transform 0.3s ease; box-shadow 0.3s ease;
+    transition: transform 0.3s ease; box-shadow: 0.3s ease;
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
