@@ -1,4 +1,69 @@
-/* Estilos Generales */
+/*  Estilación para móviles */
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+  }
+  
+  /* Estilos Generales */
+  html {
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: url('../images/fondo.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    /* Previene el desbordamiento horizontal */
+    position: relative;
+    /* Ayuda con algunos problemas de renderizado */
+  }
+  
+  /* Asegura que las imágenes no causen desbordamiento */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Hero Section - Ajustes específicos para móviles */
+  .hero-section {
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Media queries mejoradas para móviles */
+  @media (max-width: 768px) {
+    body {
+      background-attachment: scroll; /* Mejor rendimiento en móviles */
+    }
+    
+    .hero-section h1.hero-title {
+      font-size: 2.8rem;
+      word-wrap: break-word; /* Evita desbordamiento de texto */
+    }
+    
+    /* Fuerza el layout para que se calcule inmediatamente */
+    .hero-section, .card, .testimonio-card {
+      will-change: transform;
+      backface-visibility: hidden;
+    }
+  }
+  
+  /* Corrección específica para Safari en iOS */
+  @supports (-webkit-touch-callout: none) {
+    body {
+      /* Safari tiene un comportamiento especial con el viewport */
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+  }/* Estilos Generales */
+
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #fff;
@@ -62,7 +127,7 @@ h1:hover, h2:hover, p:hover {
 }
 
 .hero-section h1.hero-title { /* Especificidad para no afectar otros h1 */
-    font-size: 4rem; /* Tamaño base para pantallas grandes */
+    font-size: 3rem; /* Tamaño base para pantallas grandes */
     font-weight: bold;
     margin-bottom: 20px;
     line-height: 1.2; /* Mejora la legibilidad */
